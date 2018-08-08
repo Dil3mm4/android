@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="descendant"
+          fetch="https://gitlab.com/Descendant"
+          revision="refs/heads/master" />
+		  
+	<project path="frameworks/base" name="Descendant/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="descendant" revision="8.1" />
+	<project path="packages/apps/Settings" name="Descendant/android_packages_apps_Settings" groups="pdk-fs" remote="descendant" revision="8.1" />
+	<project path="packages/apps/Descendant" name="Descendant/packages_apps_Descendant" groups="pdk-fs" remote="descendant" revision="8.1" />
+	<project path="lineage-sdk" name="Descendant/lineage_sdk" remote="descendant" revision="8.1" />
+	<project path="packages/apps/LineageParts" name="Descendant/packages_apps_LineageParts" remote="descendant" revision="8.1"/>
+	<project path="packages/overlays/Lineage" name="LineageOS/android_packages_overlays_Lineage" remote="descendant" revision="8.1"/>
+ 
+ </manifest>
